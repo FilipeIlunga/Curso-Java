@@ -21,6 +21,19 @@ public class entrada {
 		ch = sc.next().charAt(0);
 		System.out.printf("O seu char é: %s",ch);
 		
+		
+		String stg;
+		int inteiro;
+		double doub;
+		
+		stg = sc.next();
+		inteiro = sc.nextInt();
+		doub = sc.nextDouble();
+		
+		System.out.println(stg);
+		System.out.println(inteiro);
+		System.out.println(doub);
+		
 		sc.close();
 	}
 
